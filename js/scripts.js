@@ -46,3 +46,12 @@ var number2 = parseFloat(prompt("Input a temperature in celsius"));
 
 alert("The temperature in Celsius is: " + fahrenheit(number1));
 alert("The temperature in Fahrenheit is: " + celsius(number2));
+
+//Gallon to Liter
+var liquid = function(gallon) {
+	return gallon * 3.785411;
+}
+
+var gallon = parseFloat(prompt("Input a measurement in gallons: "));
+
+alert("Your amount in liters is: " + liquid(gallon));
