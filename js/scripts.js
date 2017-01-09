@@ -20,15 +20,15 @@ var result = divide(number1, number2);
 alert(result);
 
 //bmi calculator
-var bmi = function(number1, number2) {
-	return (number1 * 0.4536) / (Math.pow((number2 / 3.28),2));
+var bmi = function(weight, height) {
+	return (weight * 0.4536) / (Math.pow((height / 3.28),2));
 };
 
-var number1 = parseFloat(prompt("What is your weight in lbs?"));
+var weight = parseFloat(prompt("What is your weight in lbs?"));
 
-var number2 = parseFloat(prompt("What is your height in ft?"));
+var height = parseFloat(prompt("What is your height in ft?"));
 
-alert(bmi(number1, number2));
+alert(bmi(weight, height));
 
 //temperature calculator
 var fahrenheit = function(number1) {
