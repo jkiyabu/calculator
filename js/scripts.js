@@ -28,7 +28,7 @@ var weight = parseFloat(prompt("What is your weight in lbs?"));
 
 var height = parseFloat(prompt("What is your height in ft?"));
 
-alert(bmi(weight, height));
+alert("Your BMI is: " + bmi(weight, height));
 
 //temperature calculator
 var fahrenheit = function(number1) {
@@ -44,5 +44,5 @@ var number1 = parseFloat(prompt("Input a temperature in fahrenheit"));
 
 var number2 = parseFloat(prompt("Input a temperature in celsius"));
 
-alert(fahrenheit(number1));
-alert(celsius(number2));
+alert("The temperature in Celsius is: " + fahrenheit(number1));
+alert("The temperature in Fahrenheit is: " + celsius(number2));
